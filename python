@@ -1,0 +1,67 @@
+def expo(a,b):
+    c=(a**b)
+    print(c)
+expo(2,5)
+
+
+def mod(a,b):
+    c=(a%b)
+    print(c)
+mod(25,6)
+
+Assignment 2
+
+animals = ["lion","tiger","bear","deer"]
+animals.append("zebra")
+print(animals)
+
+x=animals.count("lion")
+print(x)
+
+cars=["bmw","audi","benz"]
+animals.extend(cars)
+print(animals)
+
+x=cars.index("benz")
+print(x)
+
+animals.insert(2,"elephant")
+print (animals)
+
+
+animals.pop(2)
+print (animals)
+
+animals.remove("bmw")
+print (animals)
+
+animals.reverse()
+print (animals)
+
+animals.sort()
+print(animals)
+
+
+Assignment 3
+
+
+name=("my name is nishanth")
+x= name.capitalize()
+print(x)
+
+x= name.casefold()
+print(x)
+
+x= name.center(20,'o')
+print(x)
+
+x= name.encode()
+print(x)
+x= name.expandtabs(7)
+print(x)
+
+x= name.endswith(".")
+print(x)
+
+x= name.find("nishanth")
+print(x)
